@@ -1,0 +1,53 @@
+2025-12-29 16:14:26,673 DEBUG cd kindergarten && uv venv env --seed --python python3
+2025-12-29 16:14:28,552 LOG Getting frappe
+2025-12-29 16:14:28,552 DEBUG cd kindergarten/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-12-29 16:14:45,790 LOG Installing frappe
+2025-12-29 16:14:45,791 DEBUG cd /home/seo_k/PP/kindergarten && uv pip install --quiet --upgrade -e /home/seo_k/PP/kindergarten/apps/frappe  --python /home/seo_k/PP/kindergarten/env/bin/python
+2025-12-29 16:14:48,163 DEBUG cd /home/seo_k/PP/kindergarten/apps/frappe && yarn install --check-files
+2025-12-29 16:14:52,684 DEBUG cd kindergarten && bench build
+2025-12-29 16:14:52,787 INFO /home/seo_k/.local/bin/bench build
+2025-12-29 16:15:10,161 LOG setting up backups
+2025-12-29 16:15:10,178 LOG backups were set up
+2025-12-29 16:15:10,178 INFO Bench kindergarten initialized
+2025-12-29 16:15:31,009 INFO /home/seo_k/.local/bin/bench start
+2025-12-29 16:15:31,219 INFO /home/seo_k/.local/bin/bench schedule
+2025-12-29 16:15:31,230 INFO /home/seo_k/.local/bin/bench worker
+2025-12-29 16:15:31,233 INFO /home/seo_k/.local/bin/bench serve --port 8000
+2025-12-29 16:15:31,239 INFO /home/seo_k/.local/bin/bench watch
+2025-12-29 16:16:58,626 INFO /home/seo_k/.local/bin/bench new-site kindergarten.localhost
+2025-12-29 16:17:47,674 INFO /home/seo_k/.local/bin/bench use kindergarten.localhost
+2025-12-29 16:17:51,314 INFO /home/seo_k/.local/bin/bench start
+2025-12-29 16:17:51,501 INFO /home/seo_k/.local/bin/bench serve --port 8000
+2025-12-29 16:17:51,505 INFO /home/seo_k/.local/bin/bench worker
+2025-12-29 16:17:51,549 INFO /home/seo_k/.local/bin/bench schedule
+2025-12-29 16:17:51,549 INFO /home/seo_k/.local/bin/bench watch
+2025-12-29 16:18:02,968 INFO /home/seo_k/.local/bin/bench start
+2025-12-29 16:18:03,152 INFO /home/seo_k/.local/bin/bench serve --port 8000
+2025-12-29 16:18:03,152 INFO /home/seo_k/.local/bin/bench worker
+2025-12-29 16:18:03,170 INFO /home/seo_k/.local/bin/bench watch
+2025-12-29 16:18:03,171 INFO /home/seo_k/.local/bin/bench schedule
+2025-12-29 16:20:28,371 INFO /home/seo_k/.local/bin/bench get-app erpnext --branch version-15
+2025-12-29 16:20:28,905 LOG Getting erpnext
+2025-12-29 16:20:28,905 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-12-29 16:20:35,542 LOG Installing erpnext
+2025-12-29 16:20:35,542 DEBUG cd /home/seo_k/PP/kindergarten && uv pip install --quiet --upgrade -e /home/seo_k/PP/kindergarten/apps/erpnext  --python /home/seo_k/PP/kindergarten/env/bin/python
+2025-12-29 16:20:36,893 DEBUG cd /home/seo_k/PP/kindergarten/apps/erpnext && yarn install --check-files
+2025-12-29 16:20:37,229 DEBUG bench build --app erpnext
+2025-12-29 16:20:37,339 INFO /home/seo_k/.local/bin/bench build --app erpnext
+2025-12-29 16:21:25,596 INFO /home/seo_k/.local/bin/bench --site kindergarten.localhost install-app erpnext
+2025-12-29 16:23:03,223 INFO /home/seo_k/.local/bin/bench start
+2025-12-29 16:23:03,422 INFO /home/seo_k/.local/bin/bench serve --port 8000
+2025-12-29 16:23:03,425 INFO /home/seo_k/.local/bin/bench worker
+2025-12-29 16:23:03,426 INFO /home/seo_k/.local/bin/bench watch
+2025-12-29 16:23:03,439 INFO /home/seo_k/.local/bin/bench schedule
+2025-12-29 16:40:55,937 INFO /home/seo_k/.local/bin/bench set-config -g developer_mode true
+2025-12-29 16:41:02,372 INFO /home/seo_k/.local/bin/bench start
+2025-12-29 16:41:02,554 INFO /home/seo_k/.local/bin/bench worker
+2025-12-29 16:41:02,555 INFO /home/seo_k/.local/bin/bench schedule
+2025-12-29 16:41:02,569 INFO /home/seo_k/.local/bin/bench serve --port 8000
+2025-12-29 16:41:02,575 INFO /home/seo_k/.local/bin/bench watch
+2025-12-29 17:25:13,526 INFO /home/seo_k/.local/bin/bench start
+2025-12-29 17:25:13,711 INFO /home/seo_k/.local/bin/bench worker
+2025-12-29 17:25:13,713 INFO /home/seo_k/.local/bin/bench schedule
+2025-12-29 17:25:13,724 INFO /home/seo_k/.local/bin/bench watch
+2025-12-29 17:25:13,735 INFO /home/seo_k/.local/bin/bench serve --port 8000

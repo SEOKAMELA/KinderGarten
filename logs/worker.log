@@ -1,0 +1,195 @@
+2025-12-29 16:15:31,541 Worker rq:worker:e83fed34dc834f328e5e04bac649e4b6 started with PID 52465, version 1.15.1
+2025-12-29 16:15:31,541 Subscribing to channel rq:pubsub:e83fed34dc834f328e5e04bac649e4b6
+2025-12-29 16:15:31,542 *** Listening on home-seo_k-PP-kindergarten:short, home-seo_k-PP-kindergarten:default, home-seo_k-PP-kindergarten:long...
+2025-12-29 16:15:31,542 Cleaning registries for queue: home-seo_k-PP-kindergarten:short
+2025-12-29 16:15:31,543 Cleaning registries for queue: home-seo_k-PP-kindergarten:default
+2025-12-29 16:15:31,543 Cleaning registries for queue: home-seo_k-PP-kindergarten:long
+2025-12-29 16:16:51,471 Worker e83fed34dc834f328e5e04bac649e4b6 [PID 52465]: warm shut down requested
+2025-12-29 16:17:51,787 Worker rq:worker:720a13edcde2421698db58789e4357ce started with PID 53711, version 1.15.1
+2025-12-29 16:17:51,787 Subscribing to channel rq:pubsub:720a13edcde2421698db58789e4357ce
+2025-12-29 16:17:51,788 *** Listening on home-seo_k-PP-kindergarten:short, home-seo_k-PP-kindergarten:default, home-seo_k-PP-kindergarten:long...
+2025-12-29 16:17:51,788 Cleaning registries for queue: home-seo_k-PP-kindergarten:short
+2025-12-29 16:17:51,788 Cleaning registries for queue: home-seo_k-PP-kindergarten:default
+2025-12-29 16:17:51,789 Cleaning registries for queue: home-seo_k-PP-kindergarten:long
+2025-12-29 16:17:53,829 Worker 720a13edcde2421698db58789e4357ce [PID 53711]: warm shut down requested
+2025-12-29 16:17:53,830 Unsubscribing from channel rq:pubsub:720a13edcde2421698db58789e4357ce
+2025-12-29 16:18:03,426 Worker rq:worker:6dc93862af794cb8863ec3994e543850 started with PID 53978, version 1.15.1
+2025-12-29 16:18:03,426 Subscribing to channel rq:pubsub:6dc93862af794cb8863ec3994e543850
+2025-12-29 16:18:03,426 *** Listening on home-seo_k-PP-kindergarten:short, home-seo_k-PP-kindergarten:default, home-seo_k-PP-kindergarten:long...
+2025-12-29 16:18:03,427 Cleaning registries for queue: home-seo_k-PP-kindergarten:short
+2025-12-29 16:18:03,427 Cleaning registries for queue: home-seo_k-PP-kindergarten:default
+2025-12-29 16:18:03,428 Cleaning registries for queue: home-seo_k-PP-kindergarten:long
+2025-12-29 16:18:47,012 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: ntjobokoane@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::c8e287c5-c73e-47dd-ba05-3c381b9992f9)
+2025-12-29 16:18:47,958 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::c8e287c5-c73e-47dd-ba05-3c381b9992f9)
+2025-12-29 16:18:47,958 Result is kept for 600 seconds
+2025-12-29 16:18:47,964 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'ntjobokoane@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::c1b2b093-1d4a-4cfa-a1e8-7d4ca4319c6e)
+2025-12-29 16:18:48,365 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::c1b2b093-1d4a-4cfa-a1e8-7d4ca4319c6e)
+2025-12-29 16:18:48,365 Result is kept for 600 seconds
+2025-12-29 16:19:17,850 Worker 6dc93862af794cb8863ec3994e543850 [PID 53978]: warm shut down requested
+2025-12-29 16:19:17,853 Unsubscribing from channel rq:pubsub:6dc93862af794cb8863ec3994e543850
+2025-12-29 16:23:03,928 Worker rq:worker:fff138705d174f9fb11bee5130c6db2b started with PID 56906, version 1.15.1
+2025-12-29 16:23:03,928 Subscribing to channel rq:pubsub:fff138705d174f9fb11bee5130c6db2b
+2025-12-29 16:23:03,929 *** Listening on home-seo_k-PP-kindergarten:short, home-seo_k-PP-kindergarten:default, home-seo_k-PP-kindergarten:long...
+2025-12-29 16:23:03,929 Cleaning registries for queue: home-seo_k-PP-kindergarten:short
+2025-12-29 16:23:03,930 Cleaning registries for queue: home-seo_k-PP-kindergarten:default
+2025-12-29 16:23:03,931 Cleaning registries for queue: home-seo_k-PP-kindergarten:long
+2025-12-29 16:30:05,532 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 16:30:05,727 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 16:30:05,727 Result is kept for 600 seconds
+2025-12-29 16:30:05,731 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_doc..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs)
+2025-12-29 16:30:05,941 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs)
+2025-12-29 16:30:05,941 Result is kept for 600 seconds
+2025-12-29 16:33:10,833 Worker fff138705d174f9fb11bee5130c6db2b [PID 56906]: warm shut down requested
+2025-12-29 16:33:10,836 Unsubscribing from channel rq:pubsub:fff138705d174f9fb11bee5130c6db2b
+2025-12-29 16:41:03,005 Worker rq:worker:1c0bfdea7558486d97a853622116f860 started with PID 66236, version 1.15.1
+2025-12-29 16:41:03,005 Subscribing to channel rq:pubsub:1c0bfdea7558486d97a853622116f860
+2025-12-29 16:41:03,005 *** Listening on home-seo_k-PP-kindergarten:short, home-seo_k-PP-kindergarten:default, home-seo_k-PP-kindergarten:long...
+2025-12-29 16:41:03,006 Cleaning registries for queue: home-seo_k-PP-kindergarten:short
+2025-12-29 16:41:03,006 Cleaning registries for queue: home-seo_k-PP-kindergarten:default
+2025-12-29 16:41:03,007 Cleaning registries for queue: home-seo_k-PP-kindergarten:long
+2025-12-29 16:45:04,248 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 16:45:04,405 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 16:45:04,405 Result is kept for 600 seconds
+2025-12-29 17:00:06,927 home-seo_k-PP-kindergarten:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.projects.doctype.project.project.project_status_update_reminder)
+2025-12-29 17:00:07,069 home-seo_k-PP-kindergarten:long: Job OK (kindergarten.localhost::scheduled_job::erpnext.projects.doctype.project.project.project_status_update_reminder)
+2025-12-29 17:00:07,069 Result is kept for 600 seconds
+2025-12-29 17:00:07,073 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 17:00:07,215 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 17:00:07,215 Result is kept for 600 seconds
+2025-12-29 17:00:07,219 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.hourly_reminder'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.projects.doctype.project.project.hourly_reminder)
+2025-12-29 17:00:07,370 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.projects.doctype.project.project.hourly_reminder)
+2025-12-29 17:00:07,370 Result is kept for 600 seconds
+2025-12-29 17:00:07,373 home-seo_k-PP-kindergarten:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.doctype.video.video.update_youtube_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.utilities.doctype.video.video.update_youtube_data)
+2025-12-29 17:00:07,574 home-seo_k-PP-kindergarten:long: Job OK (kindergarten.localhost::scheduled_job::erpnext.utilities.doctype.video.video.update_youtube_data)
+2025-12-29 17:00:07,574 Result is kept for 600 seconds
+2025-12-29 17:00:07,578 home-seo_k-PP-kindergarten:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.bulk_transaction.retry'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.utilities.bulk_transaction.retry)
+2025-12-29 17:00:07,734 home-seo_k-PP-kindergarten:long: Job OK (kindergarten.localhost::scheduled_job::erpnext.utilities.bulk_transaction.retry)
+2025-12-29 17:00:07,734 Result is kept for 600 seconds
+2025-12-29 17:00:07,738 home-seo_k-PP-kindergarten:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.erpnext_integrations.doctype.plaid_settings.plaid_set..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization)
+2025-12-29 17:00:07,872 home-seo_k-PP-kindergarten:long: Job OK (kindergarten.localhost::scheduled_job::erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization)
+2025-12-29 17:00:07,872 Result is kept for 600 seconds
+2025-12-29 17:00:07,876 home-seo_k-PP-kindergarten:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.collect_project_stat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.projects.doctype.project.project.collect_project_status)
+2025-12-29 17:00:08,045 home-seo_k-PP-kindergarten:long: Job OK (kindergarten.localhost::scheduled_job::erpnext.projects.doctype.project.project.collect_project_status)
+2025-12-29 17:00:08,045 Result is kept for 600 seconds
+2025-12-29 17:00:08,049 home-seo_k-PP-kindergarten:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.doctype.repost_item_valuation.repost_item_valua..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries)
+2025-12-29 17:00:08,214 home-seo_k-PP-kindergarten:long: Job OK (kindergarten.localhost::scheduled_job::erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries)
+2025-12-29 17:00:08,214 Result is kept for 600 seconds
+2025-12-29 17:06:53,287 Cleaning registries for queue: home-seo_k-PP-kindergarten:short
+2025-12-29 17:06:53,288 Cleaning registries for queue: home-seo_k-PP-kindergarten:default
+2025-12-29 17:06:53,289 Cleaning registries for queue: home-seo_k-PP-kindergarten:long
+2025-12-29 17:14:15,395 Worker 1c0bfdea7558486d97a853622116f860 [PID 66236]: warm shut down requested
+2025-12-29 17:14:15,397 Unsubscribing from channel rq:pubsub:1c0bfdea7558486d97a853622116f860
+2025-12-29 17:25:14,153 Worker rq:worker:33af2eb608cd4fe8a2d3610149fac561 started with PID 88123, version 1.15.1
+2025-12-29 17:25:14,153 Subscribing to channel rq:pubsub:33af2eb608cd4fe8a2d3610149fac561
+2025-12-29 17:25:14,153 *** Listening on home-seo_k-PP-kindergarten:short, home-seo_k-PP-kindergarten:default, home-seo_k-PP-kindergarten:long...
+2025-12-29 17:25:14,154 Cleaning registries for queue: home-seo_k-PP-kindergarten:short
+2025-12-29 17:25:14,154 Cleaning registries for queue: home-seo_k-PP-kindergarten:default
+2025-12-29 17:25:14,155 Cleaning registries for queue: home-seo_k-PP-kindergarten:long
+2025-12-29 17:26:14,846 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 17:26:15,095 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 17:26:15,095 Result is kept for 600 seconds
+2025-12-29 17:27:42,780 home-seo_k-PP-kindergarten:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.document.execute_action', kwargs={'__doctype': 'DocType', '__name': 'Employee Education', '__action': '_rena..., method='frappe.model.document.execute_action', site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::4064bf81-2ecf-4712-a2aa-6860d274aad6)
+Wrote document file for DocType Employee at /home/seo_k/PP/kindergarten/apps/erpnext/erpnext/setup/doctype/employee/employee.json
+/home/seo_k/PP/kindergarten/apps/erpnext/erpnext/setup/doctype/employee/employee.py already exists, skipping...
+/home/seo_k/PP/kindergarten/apps/erpnext/erpnext/setup/doctype/employee/test_employee.py already exists, skipping...
+/home/seo_k/PP/kindergarten/apps/erpnext/erpnext/setup/doctype/employee/employee.js already exists, skipping...
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 261, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1454, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext.setup.doctype.kindergarten_education'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/model/document.py", line 1718, in execute_action
+    getattr(doc, __action)(**kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1091, in _rename
+    self.name = rename_doc(doc=self, new=name, merge=merge, force=force, validate=validate_rename)
+  File "apps/frappe/frappe/model/rename_doc.py", line 191, in rename_doc
+    rename_doctype(doctype, old, new)
+  File "apps/frappe/frappe/model/rename_doc.py", line 407, in rename_doctype
+    update_options_for_fieldtype(fieldtype, old, new)
+  File "apps/frappe/frappe/model/rename_doc.py", line 530, in update_options_for_fieldtype
+    doctype.save()
+  File "apps/frappe/frappe/model/document.py", line 378, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 431, in _save
+    self.run_post_save_methods()
+  File "apps/frappe/frappe/model/document.py", line 1177, in run_post_save_methods
+    self.run_method("on_update")
+  File "apps/frappe/frappe/model/document.py", line 1011, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1371, in composer
+    return composed(self, method, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1353, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "apps/frappe/frappe/model/document.py", line 1008, in fn
+    return method_object(*args, **kwargs)
+  File "apps/frappe/frappe/core/doctype/doctype/doctype.py", line 532, in on_update
+    self.export_types_to_controller()
+  File "apps/frappe/frappe/core/doctype/doctype/doctype.py", line 866, in export_types_to_controller
+    TypeExporter(self).export_types()
+  File "apps/frappe/frappe/types/exporter.py", line 66, in export_types
+    new_code = self._generate_code()
+  File "apps/frappe/frappe/types/exporter.py", line 96, in _generate_code
+    if python_type := self._map_fieldtype(field):
+  File "apps/frappe/frappe/types/exporter.py", line 153, in _map_fieldtype
+    if parameter_definition := self._generic_parameters(field):
+  File "apps/frappe/frappe/types/exporter.py", line 176, in _generic_parameters
+    import_statment, cls_name = self._get_doctype_imports(doctype)
+  File "apps/frappe/frappe/types/exporter.py", line 135, in _get_doctype_imports
+    doctype_module = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 96, in import_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 265, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for KinderGarten Education, the DocType you're trying to open might be deleted.
+Error: No module named 'erpnext.setup.doctype.kindergarten_education'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/background_jobs.py", line 225, in execute_job
+    retval = method(**kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1728, in execute_action
+    doc.add_comment("Comment", _("Action Failed") + "<br><br>" + msg)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 32, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1461, in add_comment
+    return frappe.get_doc(
+  File "apps/frappe/frappe/model/document.py", line 301, in insert
+    self._validate_links()
+  File "apps/frappe/frappe/model/document.py", line 979, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "apps/frappe/frappe/__init__.py", line 609, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 574, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 525, in _raise_exception
+    raise exc
+frappe.exceptions.LinkValidationError: Could not find Reference Name: Employee Education
+
+2025-12-29 17:30:15,529 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 17:30:15,671 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 17:30:15,671 Result is kept for 600 seconds
+2025-12-29 17:30:15,675 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_doc..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs)
+2025-12-29 17:30:15,841 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs)
+2025-12-29 17:30:15,841 Result is kept for 600 seconds
+2025-12-29 17:45:18,482 home-seo_k-PP-kindergarten:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='kindergarten.localhost', user='Administrator') (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 17:45:18,625 home-seo_k-PP-kindergarten:default: Job OK (kindergarten.localhost::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2025-12-29 17:45:18,625 Result is kept for 600 seconds
+2025-12-29 17:51:45,551 Worker 33af2eb608cd4fe8a2d3610149fac561 [PID 88123]: warm shut down requested
+2025-12-29 17:51:45,552 Unsubscribing from channel rq:pubsub:33af2eb608cd4fe8a2d3610149fac561
