@@ -77,8 +77,8 @@ The platform follows a layered architecture:
 
 ```bash
 # Clone repository
-git clone <repo-url>
-cd kinderGarten-platform
+git clone git@github.com:SEOKAMELA/KinderGarten.git
+cd KinderGarten
 
 # Initialize bench
 bench init kindergarten-bench --frappe-branch version-15
