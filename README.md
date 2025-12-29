@@ -1,6 +1,10 @@
 # KinderGarten Platform
 
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Built With](https://img.shields.io/badge/built%20with-Frappe%2FERPNext-blue)]()
+**Copyright © 2025 Biko Today. All Rights Reserved.**  
+This software is a proprietary system built for Biko Today clients.  
+Unauthorized copying, modification, or distribution is prohibited.
+
+[![Built With](https://img.shields.io/badge/built%20with-Frappe%2FERPNext-blue)]()
 
 The **KinderGarten Platform** is a comprehensive school management system designed to unify communication, learning records, billing, and administration into a single, secure, digital ecosystem.  
 Built with **Frappe + ERPNext**, the platform is tailored for South African schools and fully **POPIA-compliant**, offering parents, teachers, and administrators a seamless experience.
@@ -17,7 +21,7 @@ Built with **Frappe + ERPNext**, the platform is tailored for South African scho
 - [Security & Compliance](#security--compliance)  
 <!-- - [Delivery Timeline](#delivery-timeline) -->  
 <!-- - [Contribution](#contribution) -->  
-- [License](#license)  
+<!-- - [License](#license) -->  
 <!-- - [Contact](#contact) -->  
 
 ---
