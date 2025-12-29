@@ -15,9 +15,10 @@ Built with **Frappe + ERPNext**, the platform is tailored for South African scho
 - [Quick Start](#quick-start)  
 - [Project Status](#project-status)  
 - [Security & Compliance](#security--compliance)  
-- [Delivery Timeline](#delivery-timeline)  
-- [Contribution](#contribution)  
+<!-- - [Delivery Timeline](#delivery-timeline) -->  
+<!-- - [Contribution](#contribution) -->  
 - [License](#license)  
+<!-- - [Contact](#contact) -->  
 
 ---
 
